@@ -36,13 +36,13 @@
     - If inequality is not met, decryption process cannot be carried out correctly.
 
 ## Daha güvenli bir RSA şifrelemesi için bazı tüyolar (Some tips for a more secure RSA encryption): 
-1) `d > 1/3 * (n**(1/4))` Eşitsizliği sağlanmazsa, şifreleme [Wiener'in saldırısına](https://en.wikipedia.org/wiki/Wiener%27s_attack#small_private_key) karşı zaaflıı olur.
+1) `d > (1/3) * (n**(1/4))` Eşitsizliği sağlanmazsa, şifreleme [Wiener'in saldırısına](https://en.wikipedia.org/wiki/Wiener%27s_attack#small_private_key) karşı zaaflıı olur.
     - If inequality is not met, encryption becomes vulnerable to Wiener's attack.
 
 2) `e`, küçük bir tam sayı olmamalı. Aksi halde şifreleme [Coppersmith'in saldırısına](https://en.wikipedia.org/wiki/Coppersmith's_attack#Low_public_exponent_attack) karşı zaaflı olur.
     - `e`, shouldn't be a small integer. Otherwise encryption becomes vulnerable to Coppermith's attack.
 
-3) `e`, [Fermat](https://en.wikipedia.org/wiki/Fermat_number) asallarından (`Fn = (2**2**n)+1`, `F0-F4`) olmamalı.
+3) `e`, [Fermat](https://en.wikipedia.org/wiki/Fermat_number) asallarından (`Fn = (2**(2**n))+1`, `F0-F4`) olmamalı.
     - `e`, shouldn't be a Fermat prime.
 
 ## Kaynakça (References):
