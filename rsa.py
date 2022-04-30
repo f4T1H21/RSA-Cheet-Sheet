@@ -29,7 +29,7 @@ Deşifreleme işlemi   = (c**d) % n
 0 ≤ m < n # Eşitsizliğinin sağlanmaması halinde,
 deşifre işlemi sağlıklı bir şekilde gerçekleşemez.
 
-Güvenli bir RSA şifrelemesi için:
+Daha güvenli bir RSA şifrelemesi için:
 1) d > (1/3) * (n**(1/4)) # Eşitsizliği sağlanmazsa: Wiener'in saldırısına karşı zaafiyet içerir.
 2) e, küçük bir sayı olmamalı # Aksi halde Coppersmith'in saldırısı karşı zaafiyet içerir.
 3) e, Fermat asallarından (Fn = (2**(2**n))+1, F0-F4) olmamalı.
