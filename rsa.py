@@ -1,3 +1,7 @@
+# ﺏ
+# Written by Şefik Efe aka f4T1H
+# For more information, see https://github.com/f4T1H21/RSA-Cheet-Sheet
+
 """
 RSA
 
