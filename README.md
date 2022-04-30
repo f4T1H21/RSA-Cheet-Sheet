@@ -28,7 +28,7 @@
 `c = (m**e) % n`
 
 ## Deşifreleme (Decryption)
-`(c**d) % n`
+`m = (c**d) % n`
 
 ---
 
